@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "you are running $0"
+
 PERSON1=$1
 PERSON2=$2
 
