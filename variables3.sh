@@ -7,7 +7,7 @@ STARTTIME=$(date +%s)
 sleep 10s
 ENDTIME=$(date +%s)
 
-TOTAL_TIME=(($STARTTIME-$ENDTIME))
+TOTAL_TIME=$(($STARTTIME-$ENDTIME))
 
 
 echo "script take $TOTAL_TIME seconds"
